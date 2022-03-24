@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@400;600&family=Fraunces:wght@700;900&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="./style.css">
+  
+  <title>Frontend Mentor | Sunnyside agency landing page</title>
+</head>
+<body>
+  <header>
+    <nav>
+      <div id="nav-bar">
+        <div class="nav-logo">
+          <img src="./images/logo.svg" alt="logo">
+        </div>
+        <div id="nav-hamburger">
+          <a href="#">
+            <img src="./images/icon-hamburger.svg" alt="icon-hamburger">
+          </a>
+        </div>
+        <!-- Desktop Nav -->
+        <div id="nav-desktop">
+          <ul class="nav-list">
+            <li class="nav-list-item"><a href="#">About</a></li>
+            <li class="nav-list-item"><a href="#">Services</a></li>
+            <li class="nav-list-item"><a href="#">Projects</a></li>
+          </ul>
+          <button class="btn primary">Contact</button>
+        </div>
+      </div>
+      <!-- Mobile Nav -->
+      <div id="nav-mobile">
+        <div class="mobile-container">
+          <ul class="hamburger-list">
+            <li class="hamburger-item"><a href="#">About</a></li>
+            <li class="hamburger-item"><a href="#">Services</a></li>
+            <li class="hamburger-item"><a href="#">Projects</a></li>
+          </ul>
+          <button class="btn secundary"> Contact</button>
+        </div>
+      </div>
+    </nav>
+    <!-- Hero Heading -->
+    <div id="hero">
+      <h1>We are creatives</h1>
+      <div class="arrow"></div>
+    </div>
+  </header>
+  <main>
+    <div id="grid">
+      <div class="photo egg"></div>
+
+      <div class="text-box top transform">
+        <h2>Transform your brand</h2>
+        <p>We are a full-service creative agency specializing in helping brands grow fast.Engage your clients through compelling visuals that do most of the marketing for you.</p>
+        <a class="text-link" href="#">Learn more</a>
+        <div class="line yellow"></div>
+      </div>
+
+      <div class="photo cup"></div>
+      
+      <div class="text-box top stand">
+        <h2>Stand out to the right audience</h2>
+        <p>Using a collaborative formula of designers, researchers, photographers, videographers, and copywriters, we’ll build and extend your brand in digital places.</p>
+        <a class="text-link" href="#">Learn more</a>
+        <div class="line red"></div>
+      </div>
+
+      <div class="text-box bottom graphic">
+        <div class="bottom-text">
+          <h2>  Graphic design</h2>
+          <p>  Great design makes you memorable. We deliver artwork that underscores your brand message and captures potential clients’ attention.</p>
+        </div>
+      </div>
+
+      <div class="text-box bottom photography">
+        <div class="bottom-text">
+          <h2> Photography</h2>
+          <p>Increase your credibility by getting the most stunning, high-quality photos that improve your business image.</p>
+        </div>
+      </div>
+    </div>
+    <!-- Testimonial -->
+    <div id="testimonial">
+      <h3 class="testimonial">Client testimonials</h3>
+      <div class="testimonial-container">
+        <div class="box">
+          <img class="avatar" src="./images/image-emily.jpg" alt="emily">
+          <p class="description"> We put our trust in Sunnyside and they delivered, making sure our needs were met and deadlines were always hit. </p>
+          <h3 class="name">Emily R.</h3>
+          <p class="position">Marketing Director</p>
+        </div>
+  
+        <div class="box">
+          <img class="avatar" src="./images/image-thomas.jpg" alt="Thomas">
+          <p class="description"> Sunnyside’s enthusiasm coupled with their keen interest in our brand’s success made it a satisfying and enjoyable experience. </p>
+          <h3 class="name">Thomas S.</h3>
+          <p class="position">Chief Operating Officer</p>
+        </div>
+  
+        <div class="box">
+          <img class="avatar" src="./images/image-jennie.jpg" alt="jennie">
+          <p class="description"> Incredible end result! Our sales increased over 400% when we worked with Sunnyside. Highly recommended! </p>
+          <h3 class="name">Jennie F.</h3>
+          <p class="position">Business Owner</p>
+        </div>
+      </div>
+    </div>
+    <!-- Gallery -->
+    <div id="gallery">
+      <div class="gallery-box milk"></div>
+      <div class="gallery-box orange"></div>
+      <div class="gallery-box cono"></div>
+      <div class="gallery-box sugar"></div>
+    </div>
+  </main>
+  <!-- Footer -->
+  <footer>
+    <img class="footer-logo" src="./images/logo.svg" alt="logo-footer">
+
+    <div class="nav-footer">
+      <a href="#">About</a>
+      <a href="#">Services</a>
+      <a href="#">Projects</a>
+    </div>
+
+    <div class="social">
+      <a href="#">
+        <ion-icon name="logo-facebook"></ion-icon>
+      </a>
+      <a href="#">
+        <ion-icon name="logo-instagram"></ion-icon>
+      </a>
+      <a href="#">
+        <ion-icon name="logo-twitter"></ion-icon>
+      </a>
+      <a href="#">
+        <ion-icon name="logo-pinterest"></ion-icon>
+      </a>
+    </div>
+
+  </footer>
+
+  <script src="./script.js"></script>
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+</html>
