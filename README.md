@@ -1,7 +1,5 @@
 # Frontend Mentor - Sunnyside agency landing page
 
-This is a projects. Describe
-
 ![Design preview for the project](./design/desktop-preview.jpg)
 
 ## Table of contents
